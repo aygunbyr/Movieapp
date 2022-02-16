@@ -5,10 +5,10 @@ export class MovieRepository {
 
     constructor () {
         this.movies = [
-            {id: 1, title: "Örümcek Adam", description: "film 1 açıklama", imageUrl: "1.jpg", isPopular: false},
-            {id: 2, title: "Yenilmezler", description: "film 2 açıklama", imageUrl: "2.jpg", isPopular: true},
-            {id: 3, title: "Başlangıç", description: "film 3 açıklama", imageUrl: "3.jpg", isPopular: false},
-            {id: 4, title: "Don't Look Up", description: "film 4 açıklama", imageUrl: "4.jpg", isPopular: true}
+            {id: 1, title: "Örümcek Adam", description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla assumenda sapiente autem ut illum ducimus dolorum dolores quidem exercitationem laborum. Blanditiis nihil esse nulla eum exercitationem ad facilis ullam aliquid?", imageUrl: "1.jpg", isPopular: false, datePublished: new Date(1990,10,10)},
+            {id: 2, title: "Yenilmezler", description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla assumenda sapiente autem ut illum ducimus dolorum dolores quidem exercitationem laborum. Blanditiis nihil esse nulla eum exercitationem ad facilis ullam aliquid?", imageUrl: "2.jpg", isPopular: true, datePublished: new Date(1990,10,10)},
+            {id: 3, title: "Başlangıç", description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla assumenda sapiente autem ut illum ducimus dolorum dolores quidem exercitationem laborum. Blanditiis nihil esse nulla eum exercitationem ad facilis ullam aliquid?", imageUrl: "3.jpg", isPopular: false, datePublished: new Date(1990,10,10)},
+            {id: 4, title: "Don't Look Up", description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla assumenda sapiente autem ut illum ducimus dolorum dolores quidem exercitationem laborum. Blanditiis nihil esse nulla eum exercitationem ad facilis ullam aliquid?", imageUrl: "4.jpg", isPopular: true, datePublished: new Date(1990,10,10)}
         ];
     }
 

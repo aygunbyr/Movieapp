@@ -8,6 +8,14 @@ import { MoviesComponent } from './movies/movies.component';
 import { MovieComponent } from './movies/movie/movie.component';
 import { MovieDetailsComponent } from './movie-details/movie-details.component';
 import { FooterComponent } from './footer/footer.component';
+import { SummaryPipe } from './pipes/summary.pipe';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MovieFilterPipe } from './pipes/movie-filter.pipe';
+import { AlertifyService } from './services/alertify.service';
+import { HttpClientModule } from '@angular/common/http';
+import { AppRoutingModule } from './app-routing.module';
+import { MovieCreateComponent } from './movie-create/movie-create.component';
+
 
 @NgModule({
   declarations: [ // component
@@ -17,12 +25,21 @@ import { FooterComponent } from './footer/footer.component';
     MoviesComponent,
     MovieComponent,
     MovieDetailsComponent,
-    FooterComponent
+    FooterComponent,
+    SummaryPipe,
+    MovieFilterPipe,
+    MovieCreateComponent
   ],
   imports: [ // module
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    HttpClientModule,
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
-  providers: [], //services
+  providers: [
+    AlertifyService
+  ], //services
   bootstrap: [AppComponent] // starter component
 })
 export class AppModule { }

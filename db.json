@@ -1,0 +1,83 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Örümcek Adam",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla assumenda sapiente autem ut illum ducimus dolorum dolores quidem exercitationem laborum. Blanditiis nihil esse nulla eum exercitationem ad facilis ullam aliquid?",
+      "imageUrl": "1.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "title": "Yenilmezler",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla assumenda sapiente autem ut illum ducimus dolorum dolores quidem exercitationem laborum. Blanditiis nihil esse nulla eum exercitationem ad facilis ullam aliquid?",
+      "imageUrl": "2.jpg",
+      "categoryId": 2
+    },
+    {
+      "id": 3,
+      "title": "Başlangıç",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla assumenda sapiente autem ut illum ducimus dolorum dolores quidem exercitationem laborum. Blanditiis nihil esse nulla eum exercitationem ad facilis ullam aliquid?",
+      "imageUrl": "3.jpg",
+      "categoryId": 3
+    },
+    {
+      "id": 4,
+      "title": "Don't Look Up",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla assumenda sapiente autem ut illum ducimus dolorum dolores quidem exercitationem laborum. Blanditiis nihil esse nulla eum exercitationem ad facilis ullam aliquid?",
+      "imageUrl": "4.jpg",
+      "categoryId": 3
+    },
+    {
+      "id": 5,
+      "title": "Suicide Squad",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla assumenda sapiente autem ut illum ducimus dolorum dolores quidem exercitationem laborum. Blanditiis nihil esse nulla eum exercitationem ad facilis ullam aliquid?",
+      "imageUrl": "5.jpg",
+      "categoryId": 4
+    },
+    {
+      "id": 6,
+      "title": "Film 6",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla assumenda sapiente autem ut illum ducimus dolorum dolores quidem exercitationem laborum. Blanditiis nihil esse nulla eum exercitationem ad facilis ullam aliquid?",
+      "imageUrl": "5.jpg",
+      "categoryId": 4
+    },
+    {
+      "id": 7,
+      "isPopular": false,
+      "datePublished": 1645020244622,
+      "categoryId": ""
+    },
+    {
+      "id": 8,
+      "title": "başlık",
+      "description": "açıklaması",
+      "imageUrl": "1.jpg",
+      "isPopular": false,
+      "datePublished": 1645036400578,
+      "categoryId": "3"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Macera"
+    },
+    {
+      "id": 2,
+      "name": "Romantik"
+    },
+    {
+      "id": 3,
+      "name": "Komedi"
+    },
+    {
+      "id": 4,
+      "name": "Bilim Kurgu"
+    },
+    {
+      "id": 5,
+      "name": "Dram"
+    }
+  ]
+}
